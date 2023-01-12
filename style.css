@@ -67,8 +67,8 @@ html{
 }
 
 .hero   {
-    margin-top: 15rem;
-    padding: 0 5rem;
+    margin-top: 16rem;
+    /* padding: 0 1.5rem; */
     display: flex;
     align-items: center;
     /* display: grid;
@@ -76,7 +76,7 @@ html{
 }
 
 .hero-text{
-    font-size: 6rem;
+    font-size: 5rem;
     padding-top: 3rem;
     /* grid-column: 1/8; */
     line-height: 1.2;
@@ -91,7 +91,16 @@ html{
 .hero-image {
     /* grid-column: 9/13; */
     margin-left: auto;
-    height: 40rem;
-    width: 30rem;
-    background-color: rgb(34, 24, 115);
+    margin-right: 8rem;
+}
+
+.hero-image img {
+    width: 35rem;
+    height: auto;
+    transform: translate(-10%, -9%);
+}
+
+.hero-chevron{
+    color: rgb(34, 24, 115);
+    margin: 15rem 1.5rem 0 1.5rem;
 }
