@@ -17,9 +17,11 @@ html{
 }
 
 .header {
-    margin-left: 5rem;
+    margin: 0 8rem;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    color: rgb(72, 74, 72);
+    padding-top: 3rem;
 }
 
 .logo-text   {
@@ -27,30 +29,57 @@ html{
     font-weight: 600;
     letter-spacing: -2px;
     margin-right: 11rem;
-    margin-top: 3rem;
 }
 
 .header-nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     list-style: none;
-    font-size: 4rem;
+    font-size: 2.2rem;
+    font-weight: 500;
 }
 
 .nav-item   {
+    padding-right: 6rem;
+}
+
+.validate   {
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.login  {
+    padding: .5rem 1.5rem;
+    border: .1rem solid rgb(72, 74, 72);
+    border-radius: 5px;
+}
+
+.signup  {
+    padding: .5rem 1.5rem;
+    margin-left: 2rem;
+    color: #fff;
+    background-color: rgb(34, 24, 115);
+    border: .1rem solid rgb(72, 74, 72);
+    border-radius: 5px;
 }
 
 .hero   {
     margin-top: 15rem;
     padding: 0 5rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    display: flex;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(12, 1fr); */
 }
 
 .hero-text{
     font-size: 6rem;
     padding-top: 3rem;
-    grid-column: 1/8;
-    line-height: 1.5;
+    /* grid-column: 1/8; */
+    line-height: 1.2;
     font-weight: 400;
     color: rgb(34, 24, 115);
 }
@@ -60,7 +89,7 @@ html{
 }
 
 .hero-image {
-    grid-column: 9/13;
+    /* grid-column: 9/13; */
     margin-left: auto;
     height: 40rem;
     width: 30rem;
