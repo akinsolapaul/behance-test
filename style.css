@@ -6,20 +6,63 @@
   box-sizing: inherit; 
 }
 
-.header {
-    margin-left: 5rem;
-    font-size: 3rem;
-}
-
 html{
     box-sizing: border-box;
     font-size: 62.5%;   /* 10px/16px = 62.5% -> 1rem = 10px // THIS IS JUST TO RESET ALL FONT SIZE TO 10px FOR EASY CALC */
-}
-
-.header-nav {
-    /* display: flex; */
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container  {
-    
+    /* padding-top: 2rem; */
+}
+
+.header {
+    margin-left: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo-text   {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -2px;
+    margin-right: 11rem;
+    margin-top: 3rem;
+}
+
+.header-nav {
+    display: flex;
+    list-style: none;
+    font-size: 4rem;
+}
+
+.nav-item   {
+}
+
+.hero   {
+    margin-top: 15rem;
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.hero-text{
+    font-size: 6rem;
+    padding-top: 3rem;
+    grid-column: 1/8;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgb(34, 24, 115);
+}
+
+.hero-text-p span {
+    font-weight: 600;
+}
+
+.hero-image {
+    grid-column: 9/13;
+    margin-left: auto;
+    height: 40rem;
+    width: 30rem;
+    background-color: rgb(34, 24, 115);
 }
