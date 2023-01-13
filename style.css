@@ -19,9 +19,10 @@ html{
 .header {
     margin: 0 8rem;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     color: rgb(72, 74, 72);
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
 }
 
 .logo-text   {
@@ -29,11 +30,12 @@ html{
     font-weight: 600;
     letter-spacing: -2px;
     margin-right: 11rem;
+    padding-top: 3rem;
 }
 
 .header-nav {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     list-style: none;
     font-size: 2.2rem;
@@ -41,14 +43,21 @@ html{
 }
 
 .nav-item   {
-    padding-right: 6rem;
+    /* padding-right: 6rem; */
+    padding: 6rem 2.5rem 2rem 2.5rem;
+}
+
+.home   {
+    background-color: rgb(34, 24, 115);
+    color: #fff;
 }
 
 .validate   {
     display: flex;
     align-items: center;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 500;
+    margin-top: 3rem;
 }
 
 .login  {
@@ -67,18 +76,16 @@ html{
 }
 
 .hero   {
-    margin-top: 16rem;
+    margin-top: 15rem;
     /* padding: 0 1.5rem; */
     display: flex;
-    align-items: center;
     /* display: grid;
     grid-template-columns: repeat(12, 1fr); */
 }
 
 .hero-text{
     font-size: 5rem;
-    padding-top: 3rem;
-    /* grid-column: 1/8; */
+    padding-top: 5rem;
     line-height: 1.2;
     font-weight: 400;
     color: rgb(34, 24, 115);
@@ -88,19 +95,42 @@ html{
     font-weight: 600;
 }
 
+.hero-buttons   {
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-top: 7rem;
+}
+
+.read-more  {
+    text-decoration: none;
+    padding: 1rem 11rem;
+    border: .1rem solid rgb(72, 74, 72);
+    color: .1rem solid rgb(72, 74, 72);
+    border-radius: 5px;
+}
+
+.get-started    {
+    padding: 1rem 11rem;
+    background-color: rgb(34, 24, 115);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 2rem;
+}
+
 .hero-image {
     /* grid-column: 9/13; */
     margin-left: auto;
-    margin-right: 8rem;
+    margin-right: 12rem;
 }
 
 .hero-image img {
-    width: 35rem;
+    width: 30rem;
     height: auto;
     transform: translate(-10%, -9%);
 }
 
 .hero-chevron{
     color: rgb(34, 24, 115);
-    margin: 15rem 1.5rem 0 1.5rem;
+    margin: 18rem 4rem 0 1.5rem;
 }
