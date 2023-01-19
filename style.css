@@ -134,3 +134,40 @@ html{
     color: rgb(34, 24, 115);
     margin: 18rem 4rem 0 1.5rem;
 }
+
+.why-header {
+    margin: 0 auto;
+    color: rgb(72, 74, 72);
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.divide {
+    width: 5rem;
+    height: 10rem;
+    background-color: rgb(34, 24, 115);
+    margin: 0 auto;
+}
+
+.why-banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-one {
+    font-size: 2rem;
+    padding: 2rem;
+    border: 1px solid red;
+    box-shadow: 10px 10px;
+}
+
+.why-footer {
+    text-align: center;
+}
+
+.getting-started    {
+    max-width: 100rem;
+    margin: 0 auto;
+    background-color: rgb(34, 24, 115);
+}
