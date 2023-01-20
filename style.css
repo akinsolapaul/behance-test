@@ -77,10 +77,8 @@ html{
 
 .hero   {
     margin-top: 15rem;
-    /* padding: 0 1.5rem; */
+    margin-bottom: 1.5rem;
     display: flex;
-    /* display: grid;
-    grid-template-columns: repeat(12, 1fr); */
 }
 
 .hero-text{
@@ -136,38 +134,111 @@ html{
 }
 
 .why-header {
-    margin: 0 auto;
     color: rgb(72, 74, 72);
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 600;
     text-align: center;
 }
 
-.divide {
-    width: 5rem;
-    height: 10rem;
+.why-divider {
+    width: 3rem;
+    height: 5px;
+    border-radius: 5px;
     background-color: rgb(34, 24, 115);
+    margin: auto;
+}
+
+.why-header-text    {
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+.why-banner{
+    max-width: 120rem;
     margin: 0 auto;
 }
 
 .why-banner {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 3rem;
 }
 
-.banner-one {
-    font-size: 2rem;
-    padding: 2rem;
-    border: 1px solid red;
-    box-shadow: 10px 10px;
+.banner-content {
+    border: transparent;
+    border: .5px solid #abaeb3;
+    border-radius: 1rem;
+    box-shadow: #abaeb3;
+    padding-top: 3rem;
+    padding-left: 2.6rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    width: 30rem;
+}
+
+.why-banner-head    {
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.why-banner-body    {
+    font-size: 2.2rem;
+    font-weight: 500;
 }
 
 .why-footer {
     text-align: center;
+    color: rgb(72, 74, 72);
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
 }
 
 .getting-started    {
-    max-width: 100rem;
-    margin: 0 auto;
     background-color: rgb(34, 24, 115);
+    padding-top: 3rem;
+}
+
+.getting-started-content    {
+    margin: 0 auto;
+    max-width: 120rem;
+}
+
+.getting-started-p {
+    color: #fff;
+    font-size: 2.7rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+
+.getting-started-banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.getting-banner-content    {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    width: 30rem;
+    height: auto;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.getting-banner-head   {
+    font-size: 4rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.getting-started-divider    {
+    color: rgb(34, 24, 115);
+    width: 2rem;
+    height: .5px;
+}
+
+.getting-banner-body   {
+    font-size: 2.5rem;
 }
