@@ -257,7 +257,7 @@ html{
 }
 
 .feedback   {
-    max-width: 120rem;
+    max-width: 110rem;
     margin: 0 auto;
 }
 
@@ -265,17 +265,74 @@ html{
 .feedback-header   {
     text-align: center;
     color: rgb(72, 74, 72);
-    font-size: 2.7rem;
+    font-size: 3rem;
     font-weight: 600;
     margin-top: 5rem;
     margin-bottom: 7rem;
 }
 
-.feedback-box   {
-    width: 15rem;
+.feedback-boxes {
+    position: relative;
+    padding-bottom: 8rem;
 }
 
+.feedback-box-one, .feedback-box-two, .feedback-box-three   {
+    width: 26rem;
+    border: .1px solid black;
+    padding-top: 1.7rem;
+    padding-left: 1.7rem;
+    position: relative;
+}
 
+.feedback-box-two   {
+    position: absolute;
+    top: 3rem;
+    left: 35rem;
+}
+
+.feedback-box-three   {
+    position: absolute;
+    top: 1.8rem;
+    left: 74rem;
+}
+
+.feedback-box-top   {
+    display: flex;
+    margin-bottom: 1.8rem;
+}
+
+.feedback-top-image {
+    height: 3.75rem;
+    border-radius: 50%;
+    margin-right: 9px;
+}
+
+.feedback-top-text  {
+    padding-top: 8px;
+}
+
+.feedback-top-name  {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.feedback-top-designation   {
+    font-size: 7px;
+}
+
+.feedback-box-bottom    {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgb(72, 74, 72);
+}
+
+.feedback-box-svg   {
+    color: rgb(34, 24, 115);
+    transform: scale(3.5);
+    position: relative;
+    bottom: 11rem;
+    left: 21.8rem;
+}
 
 
 
