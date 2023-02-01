@@ -164,20 +164,21 @@ html{
     margin-bottom: 3rem;
 }
 
-.banner-content {
+.why-banner-content {
     border: transparent;
     border: .5px solid #abaeb3;
     border-radius: 1rem;
     box-shadow: #abaeb3;
     padding-top: 3rem;
-    padding-left: 2.6rem;
-    padding-bottom: 2rem;
-    padding-right: 2rem;
-    width: 30rem;
+    padding-left: 2.9rem;
+    padding-bottom: 4rem;
+    padding-right: 3.9rem;
+    width: 32rem;
 }
 
 .why-banner-head    {
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 3rem;
     font-weight: 600;
 }
@@ -199,6 +200,7 @@ html{
 .getting-started    {
     background-color: rgb(34, 24, 115);
     padding-top: 3rem;
+    padding-bottom: 6rem;
 }
 
 .getting-started-content    {
@@ -221,6 +223,8 @@ html{
 .getting-banner-content    {
     padding-top: 3rem;
     padding-left: 3rem;
+    padding-right: 4rem;
+    padding-bottom: 3rem;
     width: 30rem;
     height: auto;
     background-color: #fff;
@@ -230,15 +234,55 @@ html{
 .getting-banner-head   {
     font-size: 4rem;
     font-weight: 600;
-    padding-bottom: 1rem;
+    padding-bottom: 5px;
 }
 
-.getting-started-divider    {
-    color: rgb(34, 24, 115);
-    width: 2rem;
-    height: .5px;
+.getting-banner-divider    {
+    background-color: rgb(34, 24, 115);
+    width: 9rem;
+    height: 2px;
+    margin-bottom: 7px;
 }
 
 .getting-banner-body   {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.getting-banner-svg {
+    display: flex;
+    margin-left: auto;
+    color: rgb(34, 24, 115);
+    transform: scale(3);
+}
+
+.feedback   {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+.feedback-header   {
+    text-align: center;
+    color: rgb(72, 74, 72);
+    font-size: 2.7rem;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+
+.feedback-box   {
+    width: 15rem;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    margin: 0 auto;
+    max-width: 120rem;
+    padding-top: 6rem;
+    padding-bottom: 10rem;
 }
