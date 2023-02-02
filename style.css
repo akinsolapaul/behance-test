@@ -165,10 +165,8 @@ html{
 }
 
 .why-banner-content {
-    border: transparent;
-    border: .5px solid #abaeb3;
     border-radius: 1rem;
-    box-shadow: #abaeb3;
+    box-shadow: rgb(172 176 173 / 40%) 0px 8px 24px;
     padding-top: 3rem;
     padding-left: 2.9rem;
     padding-bottom: 4rem;
@@ -226,7 +224,6 @@ html{
     padding-right: 4rem;
     padding-bottom: 3rem;
     width: 30rem;
-    height: auto;
     background-color: #fff;
     border-radius: 1rem;
 }
@@ -252,6 +249,7 @@ html{
 .getting-banner-svg {
     display: flex;
     margin-left: auto;
+    
     color: rgb(34, 24, 115);
     transform: scale(3);
 }
@@ -259,6 +257,7 @@ html{
 .feedback   {
     max-width: 110rem;
     margin: 0 auto;
+    margin-bottom: 30rem;
 }
 
 
@@ -273,12 +272,13 @@ html{
 
 .feedback-boxes {
     position: relative;
-    padding-bottom: 8rem;
+    padding-bottom: 4rem;
 }
 
-.feedback-box-one, .feedback-box-two, .feedback-box-three   {
+.feedback-box-one, .feedback-box-two, .feedback-box-three, .feedback-box-four, .feedback-box-five, .feedback-box-six    {
     width: 26rem;
-    border: .1px solid black;
+    box-shadow: rgb(172 176 173 / 40%) 0px 8px 24px;
+    border-radius: 3px;
     padding-top: 1.7rem;
     padding-left: 1.7rem;
     position: relative;
@@ -287,13 +287,31 @@ html{
 .feedback-box-two   {
     position: absolute;
     top: 3rem;
-    left: 35rem;
+    left: 33rem;
 }
 
 .feedback-box-three   {
     position: absolute;
     top: 1.8rem;
-    left: 74rem;
+    left: 66rem;
+}
+
+.feedback-box-four   {
+    position: absolute;
+    top: 2.5rem;
+    left: 10rem;
+}
+
+.feedback-box-five   {
+    position: absolute;
+    top: 1.9rem;
+    left: 49rem;
+}
+
+.feedback-box-six   {
+    position: absolute;
+    top: 2.8rem;
+    left: 84rem;
 }
 
 .feedback-box-top   {
@@ -334,12 +352,101 @@ html{
     left: 21.8rem;
 }
 
+.find   {
+    background-color: rgb(34, 24, 115);
+    height: 35rem;
+}
 
+.find-content   {
+    display: flex;
+    max-width: 130rem;
+    margin: 0 auto;
+}
+
+.find-left  {
+    margin-right: 3.5rem;
+}
+
+.find-left-image    {
+    height: 47.3rem;
+    width: auto;
+    transform: translateY(-20%);
+    margin-right: 7rem;
+}
+
+.find-right {
+    padding-top: 6rem;
+    color: #fff;
+}
+
+.find-right-header  {
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+.find-right-process {
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.find-process-svg   {
+    margin-right: 2.5rem;
+    transform: scale(1.6);
+}
+
+.find-process-text  {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-right: 9.5rem;
+}
+
+.find-right-buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-top: 6rem;
+}
+
+.find-right-link    {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 1rem 9rem;
+}
 
 .footer {
     display: flex;
-    margin: 0 auto;
-    max-width: 120rem;
+    /* justify-content: space-between; */
+    /* margin: 0 auto; */
+    /* max-width: 130rem; */
     padding-top: 6rem;
     padding-bottom: 10rem;
+    margin-left: 8rem;
+}
+
+.footer-element {
+    margin-right: 8rem;
+    width: 16rem;
+}
+
+.footer-logo    {
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: -2px;
+    padding-bottom: .6rem;
+}
+
+.footer-header  {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.footer-item    {
+    padding-bottom: .7rem;
+    font-size: 1.2rem;
 }
